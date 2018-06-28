@@ -36,11 +36,11 @@ main(List<String> args) {
 
     print('File content: ${content}');
   } on ArgumentError catch(ex) {
-
+    print(ex.message);
   } on UnsupportedError catch(ex) {
-
+    print(ex.message);
   } on FileSystemException catch(ex) {
-
+    print(ex.message);
   } finally {
 
     try {

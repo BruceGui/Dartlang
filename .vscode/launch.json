@@ -7,7 +7,7 @@
 
         {
             "name": "Dart",
-            "program": "Generics/operation.dart",
+            "program": "main.dart",
             "request": "launch",
             "type": "dart"
         }
