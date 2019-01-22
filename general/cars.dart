@@ -10,9 +10,5 @@ main(List<String> args) {
 
   print('Car speed is ${car.speed}');
 
-  CarProxy proxy = new CarProxy(car);
-
-  proxy.accelerate(90);
-  print('Car speed is ${proxy.speed}');
 
 }

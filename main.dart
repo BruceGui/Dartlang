@@ -20,22 +20,4 @@ main(List<String> args) {
 
 	print(list.any((num) => num == 2));
 
-	lazyIterable();
-
-	Iterator<int> listiter = list.iterator;
-
-	while(listiter.moveNext()) {
-		 print(listiter.current);
-	}
-
-	for (int i in list) {
-		print(i);
-	}
-
-	BiListIterator biter = new BiListIterator(list, back: true);
-
-	while(biter.movePrevious()) {
-		print(biter.current);
-	}
-
 }

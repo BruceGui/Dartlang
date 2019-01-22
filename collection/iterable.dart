@@ -61,15 +61,11 @@ lazyIterable() {
 
   print('Get Iteralbe for $nums');
 
-  Iterable iterable = nums.where((int i) {
+  Iterable iterable = nums.where((i) {
     print('Fetched $i');
     return i.isOdd;
   });
 
   print('Start fetching');
-
-  iterable.forEach((int i) {
-    print('Received $i');
-  });
 
 }

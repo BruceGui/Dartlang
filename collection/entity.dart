@@ -14,7 +14,7 @@ class Entity implements Comparable {
 
   Entity(this.index); 
 
-  int compareTo(Entity other) => this.index.compareTo(other.index);
+  int compareTo(dynamic other) => this.index.compareTo(other.index);
 
   @override
   String toString() => index != null ? index.toString() : null;
