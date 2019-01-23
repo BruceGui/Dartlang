@@ -2,7 +2,6 @@
 // The Main Dart Function
 
 import 'collection/entity.dart';
-import 'collection/iterable.dart';
 
 main(List<String> args) {
   
